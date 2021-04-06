@@ -1,0 +1,52 @@
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  height: 40px;
+  padding: 20px;
+  box-shadow: 0 8px 5px -4px #ddd;
+ 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.map-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#visits {
+  width: 200px;
+  height:50px;
+  font-size: large;
+  text-indent: 10px;
+}
+
+.map-content .map-image, .map-content .map-title {
+
+  width: 1000px;
+ 
+}
+.map-title {
+  padding-left: 300px;
+}
+
+.state {fill:#FCDAA9}                        /* default color for all states not specified below */
+.borders {stroke:#FFFFFF; stroke-width:1}    /* color and width of borders between states */
+.dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
+.separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
+
+/* Individual states can be colored as follows:
+.ks,.mt,.pa {fill:#0000FF}
+.ca,.de {fill:#FF0000}
+In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
+Place this code in the empty space below. */
